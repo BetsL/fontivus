@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #ff8641;   /* orange */
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  color: #7b7d70;   /* dark grey */
+  font-size: 2em;
+}
+
+h2 {
+  color: #4eafb8;   /* teal */
+  font-size: 1.5em;
+}
+
+
+/* ----------- Tablets larger than 768px wide ----------- */
+
+
+@media (min-width: 768px) {
+  h1  {
+    color: #02cbd2;   /* aqua */
+  }
+  h2  {
+    color: #fcc02a;   /* sunshine */
+  }
+  p {
+    color: #7b8f8e;   /* grey */
+  }
+}
+
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+
+
+@media (min-width: 1200px)  {
+  h1  {
+    color: #6e4b61;   /* plum */
+  }
+  h2  {
+    color: #cabd61;   /* ochre */
+  }
+  p {
+    color: #c19e74;   /* soft orange */
+  }
+}
